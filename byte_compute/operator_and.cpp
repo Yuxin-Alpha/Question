@@ -16,16 +16,17 @@ int isPerfectLog2(int num) {
   return (num & (num - 1)) == 0; 
 }
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 int main () {
   int flag1 = isOdd(5);
   if (flag1) {
-    printf("奇数");
+    cout << "奇数";
   } else {
-    printf("偶数");
+    cout << "偶数";
   }
   int flag2 = isPerfectLog2(8);
   int flag3 = isPerfectLog2(13);
-  printf("%d-8, %d-13", flag2, flag3); 
+  cout << flag2 << flag3; 
   return 0;
 }
