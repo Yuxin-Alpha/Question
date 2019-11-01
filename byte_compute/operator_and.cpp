@@ -20,11 +20,7 @@ int isPerfectLog2(int num) {
 using namespace std;
 int main () {
   int flag1 = isOdd(5);
-  if (flag1) {
-    cout << "奇数";
-  } else {
-    cout << "偶数";
-  }
+  (flag1) ? cout << "奇数" : cout << "偶数";
   int flag2 = isPerfectLog2(8);
   int flag3 = isPerfectLog2(13);
   cout << flag2 << flag3; 
