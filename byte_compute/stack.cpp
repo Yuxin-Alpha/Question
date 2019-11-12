@@ -6,6 +6,7 @@ typedef struct stack {
   int vals[SIZE];
   int qty;
 } stack;
+
 int stack_size (const stack* p_stack) {
   return p_stack->qty;
 }
