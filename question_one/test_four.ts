@@ -6,6 +6,6 @@ import {MyStack} from '../base_class/stack'
 
 let removeEndOfStack: (s:MyStack) => Array<number> = function(myStack:MyStack): Array<number> {
   let result = myStack.pop()
-  
+  // 临时加一个
   return 
 }
