@@ -1,15 +1,14 @@
-#include<iostream>
-using namespace std;
+/**
+ * 不定义新的变量实现两个数的交换
+*/
 
-void swap(int num1, int num2);
-int main() {
-  swap(5, 10);
-  return 0;
-}
+let swapNumber: (numOne: number, numTwo: number) => void = function(numOne: number, numTwo: number): void {
+  console.log(numOne, numTwo);
+  numOne ^= numTwo;
+  numTwo ^= numOne;
+  numOne ^= numTwo;
+  console.log(numOne, numTwo);
+} 
 
-void swap(int num1, int num2) {
-  num1 ^= num2;
-  num2 ^= num1;
-  num1 ^= num2;
-  cout << num1 << num2;
-}
+// 测试代码
+swapNumber(45, 90)
