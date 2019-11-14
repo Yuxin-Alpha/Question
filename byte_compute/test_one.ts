@@ -1,5 +1,7 @@
 /**
+ * 题目一
  * 不定义新的变量实现两个数的交换
+ * 时间：2019/11/14
 */
 
 let swapNumber: (numOne: number, numTwo: number) => void = function(numOne: number, numTwo: number): void {
