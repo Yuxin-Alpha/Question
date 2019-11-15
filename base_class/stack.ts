@@ -1,3 +1,7 @@
+/**
+ * 普通栈的封装
+ * 时间：2019/11/09
+*/
 class MyStack {
   items: Array<number>
   constructor () {
