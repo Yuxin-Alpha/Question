@@ -16,7 +16,7 @@ class NewStack extends MyStack {
     this.stackData = new MyStack()
     this.stackMin = new MyStack()
   }
-  push(newValue: number): void{
+  push(newValue: number): void {
     if(this.stackData.isEmpty()) {
       this.stackData.items.push(newValue)
       this.stackMin.items.push(newValue)
@@ -30,7 +30,7 @@ class NewStack extends MyStack {
       }
     }
   }
-  pop(): number{
+  pop(): number {
     if(this.stackData.isEmpty()) {
       throw new Error('The Stack is Empty!!')
     } else {

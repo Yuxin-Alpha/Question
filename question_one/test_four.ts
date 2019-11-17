@@ -1,4 +1,4 @@
-import {MyStack} from '../base_class/stack'
+import { MyStack } from '../base_class/stack'
 /**
  * 使用递归逆序一个栈 
  * 时间：2019/11/13
